@@ -22,3 +22,7 @@ Uses:
 - [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/)
 - [Google Sheets API](https://developers.google.com/sheets/api)
 - [Google Geocoding API](https://developers.google.com/maps/documentation/javascript/geocoding)
+
+Looks like:
+
+![boston](images/3dc-1.png)
