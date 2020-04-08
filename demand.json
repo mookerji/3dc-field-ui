@@ -1,0 +1,159 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -122.434694,
+          37.768348
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "CPMC Davies Campus",
+        "vicinity": "45 Castro Street, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.405002,
+          37.75618
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Zuckerberg San Francisco General Hospital and Trauma Center",
+        "vicinity": "1001 Potrero Avenue, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.453707,
+          37.773914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "St. Mary\u2019s Medical Center",
+        "vicinity": "450 Stanyan Street, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.432164,
+          37.790547
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Stroke Care Center: California Pacific Medical Center: Pacific Campus",
+        "vicinity": "2100 Webster Street #404, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.505264,
+          37.782395
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "San Francisco VA Medical Center",
+        "vicinity": "4150 Clement Street, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.443097,
+          37.782459
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kaiser Permanente San Francisco Medical Center and Medical Offices",
+        "vicinity": "2425 Geary Boulevard, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.431241,
+          37.790871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Cardiac Catheterization Laboratory: California Pacific Medical Center",
+        "vicinity": "2333 Buchanan Street, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.461015,
+          37.761638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "University of California, San Francisco, Medical Center : Dentistry",
+        "vicinity": "707 Parnassus Avenue, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.421037,
+          37.747535
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "CPMC Mission Bernal Campus",
+        "vicinity": "3555 Cesar Chavez, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.43159,
+          37.790678
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ivan G. Hamilton, M.D.",
+        "vicinity": "2351 Clay Street Suite 308, San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -122.416729,
+          37.78938
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Saint Francis Memorial Hospital",
+        "vicinity": "900 Hyde Street, San Francisco"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
