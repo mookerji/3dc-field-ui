@@ -6,9 +6,11 @@ mapboxgl.accessToken = MAPBOX_TOKEN;
 const map = new mapboxgl.Map({
   container: "map",
   style: "mapbox://styles/mapbox/streets-v11",
-  center: [-71.0942, 42.3601],
+  center: [-122.4639339,37.7758159],
   zoom: 9,
 });
+
+
 
 map.on("load", function () {
   init();
