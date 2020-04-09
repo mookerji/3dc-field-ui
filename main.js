@@ -63,7 +63,7 @@ map.on("mousemove", "demand", (e) => {
   handleMove(e);
 });
 
-map.on("mouseleave", "demand", function () {
+map.on("mouseleave", "demand", function (e) {
   handleLeave(e);
 });
 
@@ -71,7 +71,7 @@ map.on("mousemove", "supply", (e) => {
   handleMove(e);
 });
 
-map.on("mouseleave", "supply", function () {
+map.on("mouseleave", "supply", function (e) {
   handleLeave(e);
 });
 
