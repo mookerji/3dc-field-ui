@@ -40,7 +40,7 @@ function recipientToHTML(properties) {
   return `<p><b>Name</b>: ${name}<br><b/>Address</b>: ${vicinity}<br><b/>Contact</b>: ${contact_name}<br><b/>Email</b>: ${contact_email}<br><b/>Created At</b>: ${created_at}<br><b/>Status</b>: ${status}</p>`;
 }
 
-map.on("mousemove", "demand", (e) => {
+function handleMove(e) {
   const id = e.features[0].properties.name;
   if (id !== lastId) {
     lastId = id;
@@ -49,12 +49,30 @@ map.on("mousemove", "demand", (e) => {
     const HTML = recipientToHTML(e.features[0].properties);
     popup.setLngLat(coordinates).setHTML(HTML).addTo(map);
   }
-});
+}
 
-map.on("mouseleave", "demand", function () {
+function handleLeave(e) {
   lastId = undefined;
   map.getCanvas().style.cursor = "";
   popup.remove();
+}
+
+// TODO(mookerji): Refactor all this
+
+map.on("mousemove", "demand", (e) => {
+  handleMove(e);
+});
+
+map.on("mouseleave", "demand", function () {
+  handleLeave(e);
+});
+
+map.on("mousemove", "supply", (e) => {
+  handleMove(e);
+});
+
+map.on("mouseleave", "supply", function () {
+  handleLeave(e);
 });
 
 function addLayerSelect(layer_id) {
@@ -96,5 +114,18 @@ function init() {
     },
     filter: ["==", "entity_type", "recipient"],
   });
+  map.addLayer({
+    id: "supply",
+    source: "data",
+    type: "circle",
+    paint: {
+      "circle-opacity": 0.75,
+      "circle-stroke-width": 0.5,
+      "circle-radius": 6,
+      "circle-color": "#007cbf",
+    },
+    filter: ["==", "entity_type", "warehouse"],
+  });
   addLayerSelect("demand");
+  addLayerSelect("supply");
 }
