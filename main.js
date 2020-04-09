@@ -12,7 +12,7 @@ const map = new mapboxgl.Map({
   //  style: "mapbox://styles/maskson-internal/ck8qye4uf059t1ipsdcdtcy90",
   style: "mapbox://styles/mapbox/streets-v11",
   center: [-122.4639339, 37.7758159],
-  zoom: 11,
+  zoom: 12,
 });
 
 const filterGroup = document.getElementById("filter-group");
@@ -90,10 +90,11 @@ function init() {
     type: "circle",
     paint: {
       "circle-opacity": 0.75,
-      "circle-stroke-width": 1,
+      "circle-stroke-width": 0.5,
       "circle-radius": 6,
-      "circle-color": "#B42222", // Red
+      "circle-color": "#FFEB3B",
     },
+    filter: ["==", "entity_type", "recipient"],
   });
   addLayerSelect("demand");
 }
