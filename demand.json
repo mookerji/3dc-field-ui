@@ -6,7 +6,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "CPMC Davies Campus",
+        "status": "delivered",
         "vicinity": "45 Castro Street, San Francisco"
       },
       "type": "Feature"
@@ -17,7 +22,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "Zuckerberg San Francisco General Hospital and Trauma Center",
+        "status": "delivered",
         "vicinity": "1001 Potrero Avenue, San Francisco"
       },
       "type": "Feature"
@@ -28,7 +38,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "St. Mary\u2019s Medical Center",
+        "status": "delivered",
         "vicinity": "450 Stanyan Street, San Francisco"
       },
       "type": "Feature"
@@ -39,7 +54,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "Stroke Care Center: California Pacific Medical Center: Pacific Campus",
+        "status": "delivered",
         "vicinity": "2100 Webster Street #404, San Francisco"
       },
       "type": "Feature"
@@ -50,7 +70,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "San Francisco VA Medical Center",
+        "status": "delivered",
         "vicinity": "4150 Clement Street, San Francisco"
       },
       "type": "Feature"
@@ -61,7 +86,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "Kaiser Permanente San Francisco Medical Center and Medical Offices",
+        "status": "delivered",
         "vicinity": "2425 Geary Boulevard, San Francisco"
       },
       "type": "Feature"
@@ -72,7 +102,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "Cardiac Catheterization Laboratory: California Pacific Medical Center",
+        "status": "delivered",
         "vicinity": "2333 Buchanan Street, San Francisco"
       },
       "type": "Feature"
@@ -83,7 +118,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "University of California, San Francisco, Medical Center : Dentistry",
+        "status": "delivered",
         "vicinity": "707 Parnassus Avenue, San Francisco"
       },
       "type": "Feature"
@@ -94,7 +134,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "CPMC Mission Bernal Campus",
+        "status": "delivered",
         "vicinity": "3555 Cesar Chavez, San Francisco"
       },
       "type": "Feature"
@@ -105,7 +150,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "Ivan G. Hamilton, M.D.",
+        "status": "delivered",
         "vicinity": "2351 Clay Street Suite 308, San Francisco"
       },
       "type": "Feature"
@@ -116,7 +166,12 @@
         "type": "Point"
       },
       "properties": {
+        "contact_email": "foo@bar.baz",
+        "contact_name": "George Washington",
+        "created_at": "2020-04-09T05:49:36Z",
+        "entity_type": "recipient",
         "name": "Saint Francis Memorial Hospital",
+        "status": "delivered",
         "vicinity": "900 Hyde Street, San Francisco"
       },
       "type": "Feature"

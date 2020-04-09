@@ -1,0 +1,12 @@
+index,lat,lng,vicinity,place_id,name,demand,contact_name,contact_email,entity_type,created_at,status
+0,37.7683483,-122.4346938,"45 Castro Street, San Francisco",ChIJocI_76eAhYARNbildzVTC5A,CPMC Davies Campus,10,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+1,37.7561796,-122.4050025,"1001 Potrero Avenue, San Francisco",ChIJG9bTskt-j4ARBhzzHMYn48c,Zuckerberg San Francisco General Hospital and Trauma Center,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+2,37.7739136,-122.4537069,"450 Stanyan Street, San Francisco",ChIJ82h8706HhYARtqUYN1WhsYU,St. Mary’s Medical Center,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+3,37.7905475,-122.4321635,"2100 Webster Street #404, San Francisco",ChIJ-fdK9caAhYARZgSFYaC4OlY,Stroke Care Center: California Pacific Medical Center: Pacific Campus,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+4,37.782395,-122.5052644,"4150 Clement Street, San Francisco",ChIJa_d9WbKHhYARdNmJEtzGc48,San Francisco VA Medical Center,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+5,37.7824588,-122.4430966,"2425 Geary Boulevard, San Francisco",ChIJ0d8NvLWAhYARyhkR_BPz5Y0,Kaiser Permanente San Francisco Medical Center and Medical Offices,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+6,37.7908706,-122.4312411,"2333 Buchanan Street, San Francisco",ChIJE5AkSmNhhYARyF1uk5tyXFY,Cardiac Catheterization Laboratory: California Pacific Medical Center,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+8,37.7616376,-122.4610147,"707 Parnassus Avenue, San Francisco",ChIJpb8hM1iHhYARL3GNqL9Dbl8,"University of California, San Francisco, Medical Center : Dentistry",22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+14,37.7475351,-122.4210369,"3555 Cesar Chavez, San Francisco",ChIJF44O2EN-j4ARxRa0y_8juwY,CPMC Mission Bernal Campus,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+15,37.7906777,-122.4315903,"2351 Clay Street Suite 308, San Francisco",ChIJB70QYMaAhYARD3L_ygiw_Wo,"Ivan G. Hamilton, M.D.",22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
+16,37.7893799,-122.4167294,"900 Hyde Street, San Francisco",ChIJGTLadJOAhYARng57neGhjk0,Saint Francis Memorial Hospital,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
