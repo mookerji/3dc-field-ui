@@ -79,14 +79,14 @@ function addLayerSelect(layer_id) {
 }
 
 function init() {
-  map.addSource("demand", {
+  map.addSource("data", {
     type: "geojson",
     data:
       "https://raw.githubusercontent.com/mookerji/3dc-field-ui/master/demand.json",
   });
   map.addLayer({
     id: "demand",
-    source: "demand",
+    source: "data",
     type: "circle",
     paint: {
       "circle-opacity": 0.75,
