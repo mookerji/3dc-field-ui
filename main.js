@@ -107,8 +107,8 @@ function init() {
     source: "data",
     type: "circle",
     paint: {
-      "circle-opacity": 0.75,
-      "circle-stroke-width": 0.5,
+      "circle-opacity": 0.85,
+      "circle-stroke-width": 0.8,
       "circle-radius": 6,
       "circle-color": "#FFEB3B",
     },
@@ -119,8 +119,8 @@ function init() {
     source: "data",
     type: "circle",
     paint: {
-      "circle-opacity": 0.75,
-      "circle-stroke-width": 0.5,
+      "circle-opacity": 0.85,
+      "circle-stroke-width": 0.8,
       "circle-radius": 6,
       "circle-color": "#007cbf",
     },
