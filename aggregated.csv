@@ -1,0 +1,7 @@
+index,county,lat,lng,entity_type,quantity,quantity_type,created_at
+0,"Harris County, TX", 29.749907,-95.358421,demand,22,Face Shield,2020-04-09T05:49:36Z
+1,"Harris County, TX", 29.749907,-95.358421,supply,22,Face Shield,2020-04-09T05:49:36Z
+2,"San Francisco County, CA", 37.78234,-122.465211,supply,22,Face Shield,2020-04-09T05:49:36Z
+3,"San Francisco County, CA", 37.78234,-122.465211,demand,22,Face Shield,2020-04-09T05:49:36Z
+4,"Suffolk County, MA", 42.361145, -71.057083,supply,22,Face Shield,2020-04-09T05:49:36Z
+5,"Suffolk Founty, MA", 42.361145, -71.057083,demand,22,Face Shield,2020-04-09T05:49:36Z

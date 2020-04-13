@@ -11,8 +11,9 @@ const map = new mapboxgl.Map({
   container: "map",
   //  style: "mapbox://styles/maskson-internal/ck8qye4uf059t1ipsdcdtcy90",
   style: "mapbox://styles/mapbox/streets-v11",
-  center: [-122.4639339, 37.7758159],
-  zoom: 12,
+  center: [-98, 38.88],
+  minZoom: 2,
+  zoom: 3
 });
 
 const filterGroup = document.getElementById("filter-group");
@@ -101,6 +102,10 @@ function init() {
     type: "geojson",
     data:
       "https://raw.githubusercontent.com/mookerji/3dc-field-ui/master/demand.json",
+  });
+  map.addSource('counties', {
+      'type': 'vector',
+      'url': 'mapbox://mapbox.82pkq93d'
   });
   map.addLayer({
     id: "demand",

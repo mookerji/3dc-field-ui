@@ -10,5 +10,4 @@ index,lat,lng,vicinity,place_id,name,demand,contact_name,contact_email,entity_ty
 14,37.7475351,-122.4210369,"3555 Cesar Chavez, San Francisco",ChIJF44O2EN-j4ARxRa0y_8juwY,CPMC Mission Bernal Campus,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
 15,37.7906777,-122.4315903,"2351 Clay Street Suite 308, San Francisco",ChIJB70QYMaAhYARD3L_ygiw_Wo,"Ivan G. Hamilton, M.D.",22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
 16,37.7893799,-122.4167294,"900 Hyde Street, San Francisco",ChIJGTLadJOAhYARng57neGhjk0,Saint Francis Memorial Hospital,22,George Washington,foo@bar.baz,recipient,2020-04-09T05:49:36Z,delivered
-
 17,37.7823468,-122.4652117,"350 7th Avenue, San Francisco",ChIJGTLadJOAhYARng57neGhjk1,Warehouse,22,Alexander Hamilton,foo@bar.baz,warehouse,2020-04-09T05:49:36Z,none
