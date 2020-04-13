@@ -1,0 +1,2229 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7683029,
+          42.2079314
+        ]
+      },
+      "properties": {
+        "name": "Karen Conley Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6231114,
+          41.8670646
+        ]
+      },
+      "properties": {
+        "name": "University of Chicago",
+        "quantity": 3,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6971825,
+          40.7456287
+        ]
+      },
+      "properties": {
+        "name": "NY Presbyterian Queens",
+        "quantity": 30,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.825414,
+          40.740755
+        ]
+      },
+      "properties": {
+        "name": "DTSite1",
+        "quantity": 50,
+        "entity_type": "supply",
+        "quantity_type": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 2256,
+        "entity_type": "supply",
+        "quantity_type": "HEAD XS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0622717,
+          42.3500802
+        ]
+      },
+      "properties": {
+        "name": "Winchester Hospital",
+        "quantity": 7,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0637529,
+          42.3503543
+        ]
+      },
+      "properties": {
+        "name": "Tufts Medical Center",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4392664,
+          37.7854624
+        ]
+      },
+      "properties": {
+        "name": "Jacks Hospital",
+        "quantity": 50,
+        "entity_type": "supply",
+        "quantity_type": "PPELS-FICTIV001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6231114,
+          41.8670646
+        ]
+      },
+      "properties": {
+        "name": "University of Chicago",
+        "quantity": 3,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1137505,
+          42.7515365
+        ]
+      },
+      "properties": {
+        "name": "Lightspeed",
+        "quantity": -59,
+        "entity_type": "supply",
+        "quantity_type": "PPE Model 100 Documentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 17,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0731297,
+          42.3698228
+        ]
+      },
+      "properties": {
+        "name": "Boston Medical Center",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1137505,
+          42.7515365
+        ]
+      },
+      "properties": {
+        "name": "Lightspeed",
+        "quantity": 217,
+        "entity_type": "supply",
+        "quantity_type": "HEAD L/XL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1137505,
+          42.7515365
+        ]
+      },
+      "properties": {
+        "name": "Lightspeed",
+        "quantity": 60,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2153771,
+          42.3270726
+        ]
+      },
+      "properties": {
+        "name": "Suki Tepperberg Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.415475,
+          37.7538259
+        ]
+      },
+      "properties": {
+        "name": "SF Distribution Center",
+        "quantity": 1000,
+        "entity_type": "supply",
+        "quantity_type": "PPELS-FICTIV001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2303579,
+          44.9447165
+        ]
+      },
+      "properties": {
+        "name": "Protolabs - Shandroski",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "HEAD S/M"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1081799,
+          42.3358174
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital",
+        "quantity": 2,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "Durable PPE L/XL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6971825,
+          40.7456287
+        ]
+      },
+      "properties": {
+        "name": "NY Presbyterian Queens",
+        "quantity": 20,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1137505,
+          42.7515365
+        ]
+      },
+      "properties": {
+        "name": "Lightspeed",
+        "quantity": 601,
+        "entity_type": "supply",
+        "quantity_type": "Adapter v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.971955,
+          42.5841788
+        ]
+      },
+      "properties": {
+        "name": "Beverly Medical Center",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Faulkner Hospital",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "Durable PPE L/XL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 62,
+        "entity_type": "supply",
+        "quantity_type": "Adapter v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1557828,
+          42.3050727
+        ]
+      },
+      "properties": {
+        "name": "Jim Philip Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0637529,
+          42.3503543
+        ]
+      },
+      "properties": {
+        "name": "Tufts Medical Center",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2987183,
+          41.1227796
+        ]
+      },
+      "properties": {
+        "name": "Roselle Crombie Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.825414,
+          40.740755
+        ]
+      },
+      "properties": {
+        "name": "DTSite1",
+        "quantity": 65,
+        "entity_type": "supply",
+        "quantity_type": "DT001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 833,
+        "entity_type": "supply",
+        "quantity_type": "Adapter"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1557828,
+          42.3050727
+        ]
+      },
+      "properties": {
+        "name": "Jim Philip Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 686,
+        "entity_type": "supply",
+        "quantity_type": "Tegaderm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1137505,
+          42.7515365
+        ]
+      },
+      "properties": {
+        "name": "Lightspeed",
+        "quantity": -59,
+        "entity_type": "supply",
+        "quantity_type": "Tegaderm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2153771,
+          42.3270726
+        ]
+      },
+      "properties": {
+        "name": "Suki Tepperberg Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 2028,
+        "entity_type": "supply",
+        "quantity_type": "HEAD L/XL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1137505,
+          42.7515365
+        ]
+      },
+      "properties": {
+        "name": "Lightspeed",
+        "quantity": -59,
+        "entity_type": "supply",
+        "quantity_type": "Plastic Bag"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8757261,
+          42.5640529
+        ]
+      },
+      "properties": {
+        "name": "Beth Israel Lahey Health - Beverly Hospital ",
+        "quantity": 17,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Faulkner Hospital",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8758422,
+          42.1376426
+        ]
+      },
+      "properties": {
+        "name": "Shelley Lynch Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.408692,
+          41.8349819
+        ]
+      },
+      "properties": {
+        "name": "Victoria Fox Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 3136,
+        "entity_type": "supply",
+        "quantity_type": "HEAD S/M"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0129804,
+          41.9640376
+        ]
+      },
+      "properties": {
+        "name": "Good Samaritan Hospital",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7683029,
+          42.2079314
+        ]
+      },
+      "properties": {
+        "name": "Karen Conley Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 455,
+        "entity_type": "supply",
+        "quantity_type": "Heat shrink"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.408692,
+          41.8349819
+        ]
+      },
+      "properties": {
+        "name": "Victoria Fox Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0622717,
+          42.3500802
+        ]
+      },
+      "properties": {
+        "name": "Winchester Hospital",
+        "quantity": 11,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2303579,
+          44.9447165
+        ]
+      },
+      "properties": {
+        "name": "Protolabs - Shandroski",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "HEAD L/XL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 307,
+        "entity_type": "supply",
+        "quantity_type": "Plastic Bag"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.971955,
+          42.5841788
+        ]
+      },
+      "properties": {
+        "name": "Beverly Medical Center",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 430,
+        "entity_type": "supply",
+        "quantity_type": "Valve"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0129804,
+          41.9640376
+        ]
+      },
+      "properties": {
+        "name": "Good Samaritan Hospital",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1963604,
+          42.3723869
+        ]
+      },
+      "properties": {
+        "name": "Mark P Ottensmeyer",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8758422,
+          42.1376426
+        ]
+      },
+      "properties": {
+        "name": "Shelley Lynch Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1081799,
+          42.3358174
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital",
+        "quantity": 2,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": 55,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1247404,
+          42.3417623
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital-Stone",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6971825,
+          40.7456287
+        ]
+      },
+      "properties": {
+        "name": "Sai-Kit Wong House",
+        "quantity": 25,
+        "entity_type": "supply",
+        "quantity_type": "iMakr001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Faulkner Hospital",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2987183,
+          41.1227796
+        ]
+      },
+      "properties": {
+        "name": "Roselle Crombie Home",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Cambridge Health Alliance",
+        "quantity": 1,
+        "entity_type": "supply",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1398849,
+          42.3984896
+        ]
+      },
+      "properties": {
+        "name": "Alewife",
+        "quantity": -169,
+        "entity_type": "supply",
+        "quantity_type": "PPE Model 100 Documentation"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8757261,
+          42.5640529
+        ]
+      },
+      "properties": {
+        "name": "Beth Israel Lahey Health - Beverly Hospital ",
+        "quantity": 13,
+        "entity_type": "supply",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN5",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6231114,
+          41.8670646
+        ]
+      },
+      "properties": {
+        "name": "University of Chicago",
+        "quantity": 3,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0731297,
+          42.3698228
+        ]
+      },
+      "properties": {
+        "name": "Boston Medical Center",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6231114,
+          41.8670646
+        ]
+      },
+      "properties": {
+        "name": "University of Chicago",
+        "quantity": 13,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1249611,
+          42.4414327
+        ]
+      },
+      "properties": {
+        "name": "Test Institution",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPELS-FICTIV001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2153771,
+          42.3270726
+        ]
+      },
+      "properties": {
+        "name": "Suki Tepperberg Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8758422,
+          42.1376426
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN3",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4758901,
+          43.0651329
+        ]
+      },
+      "properties": {
+        "name": "Testing New Healthcare Institution",
+        "quantity": 100,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.971955,
+          42.5841788
+        ]
+      },
+      "properties": {
+        "name": "Beverly Medical Center",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1557828,
+          42.3050727
+        ]
+      },
+      "properties": {
+        "name": "Jim Philip Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0622717,
+          42.3500802
+        ]
+      },
+      "properties": {
+        "name": "Winchester Hospital",
+        "quantity": 13,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2987183,
+          41.1227796
+        ]
+      },
+      "properties": {
+        "name": "Roselle Crombie Home",
+        "quantity": 2,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7683029,
+          42.2079314
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN2",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6971825,
+          40.7456287
+        ]
+      },
+      "properties": {
+        "name": "NY Presbyterian Queens",
+        "quantity": 10,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0731297,
+          42.3698228
+        ]
+      },
+      "properties": {
+        "name": "Boston Medical Center",
+        "quantity": 2,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8758422,
+          42.1376426
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN3",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.171657,
+          42.3701728
+        ]
+      },
+      "properties": {
+        "name": "Mount Auburn Hospital",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1557828,
+          42.3050727
+        ]
+      },
+      "properties": {
+        "name": "Jim Philip Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.171657,
+          42.3701728
+        ]
+      },
+      "properties": {
+        "name": "Mount Auburn Hospital",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "FICTIV001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0731297,
+          42.3698228
+        ]
+      },
+      "properties": {
+        "name": "Boston Medical Center",
+        "quantity": 5,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.171657,
+          42.3701728
+        ]
+      },
+      "properties": {
+        "name": "Mount Auburn Hospital",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Faulkner Hospital",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2153771,
+          42.3270726
+        ]
+      },
+      "properties": {
+        "name": "Suki Tepperberg Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1081799,
+          42.3358174
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital",
+        "quantity": 3,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1674091,
+          40.0030917
+        ]
+      },
+      "properties": {
+        "name": "Boston Test",
+        "quantity": 100,
+        "entity_type": "demand",
+        "quantity_type": "PPELS-FICTIV001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.971955,
+          42.5841788
+        ]
+      },
+      "properties": {
+        "name": "Beverly Medical Center",
+        "quantity": 10,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8758422,
+          42.1376426
+        ]
+      },
+      "properties": {
+        "name": "Shelley Lynch Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN5",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN4",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7683029,
+          42.2079314
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN2",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.408692,
+          41.8349819
+        ]
+      },
+      "properties": {
+        "name": "Victoria Fox Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2303579,
+          44.9447165
+        ]
+      },
+      "properties": {
+        "name": "Protolabs - Shandroski",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "HEAD L/XL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.971955,
+          42.5841788
+        ]
+      },
+      "properties": {
+        "name": "Beverly Medical Center",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0129804,
+          41.9640376
+        ]
+      },
+      "properties": {
+        "name": "Good Samaritan Hospital",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1081799,
+          42.3358174
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital",
+        "quantity": 4,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1247404,
+          42.3417623
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital-Stone",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6971825,
+          40.7456287
+        ]
+      },
+      "properties": {
+        "name": "NY Presbyterian Queens",
+        "quantity": 10,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital - 4",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2987183,
+          41.1227796
+        ]
+      },
+      "properties": {
+        "name": "Roselle Crombie Home",
+        "quantity": 2,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0681779,
+          42.3625632
+        ]
+      },
+      "properties": {
+        "name": "Boston General Test",
+        "quantity": 20,
+        "entity_type": "demand",
+        "quantity_type": "PPELS-FICTIV001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8757261,
+          42.5640529
+        ]
+      },
+      "properties": {
+        "name": "Beth Israel Lahey Health - Beverly Hospital ",
+        "quantity": 13,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0731297,
+          42.3698228
+        ]
+      },
+      "properties": {
+        "name": "Boston Medical Center",
+        "quantity": 7,
+        "entity_type": "demand",
+        "quantity_type": "UNKNOWN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7683029,
+          42.2079314
+        ]
+      },
+      "properties": {
+        "name": "Karen Conley Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0622717,
+          42.3500802
+        ]
+      },
+      "properties": {
+        "name": "Winchester Hospital",
+        "quantity": 6,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN6",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6971825,
+          40.7456287
+        ]
+      },
+      "properties": {
+        "name": "NY Presbyterian Queens",
+        "quantity": 30,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital - 3",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0637529,
+          42.3503543
+        ]
+      },
+      "properties": {
+        "name": "Tufts Medical Center",
+        "quantity": 2,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4392664,
+          37.7854624
+        ]
+      },
+      "properties": {
+        "name": "Jacks Hospital",
+        "quantity": 50,
+        "entity_type": "demand",
+        "quantity_type": "PPELS-FICTIV001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8757261,
+          42.5640529
+        ]
+      },
+      "properties": {
+        "name": "Beth Israel Lahey Health - Beverly Hospital ",
+        "quantity": 1000,
+        "entity_type": "demand",
+        "quantity_type": "iMakr001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4758901,
+          43.0651329
+        ]
+      },
+      "properties": {
+        "name": "Testing New Healthcare Institution",
+        "quantity": 100,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2303579,
+          44.9447165
+        ]
+      },
+      "properties": {
+        "name": "Protolabs - Shandroski",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "HEAD S/M"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1081799,
+          42.3358174
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital",
+        "quantity": 3,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6971825,
+          40.7456287
+        ]
+      },
+      "properties": {
+        "name": "NY Presbyterian Queens",
+        "quantity": 20,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6231114,
+          41.8670646
+        ]
+      },
+      "properties": {
+        "name": "University of Chicago",
+        "quantity": 14,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0637529,
+          42.3503543
+        ]
+      },
+      "properties": {
+        "name": "Tufts Medical Center",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8757261,
+          42.5640529
+        ]
+      },
+      "properties": {
+        "name": "Beth Israel Lahey Health - Beverly Hospital ",
+        "quantity": 17,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN4",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Faulkner Hospital",
+        "quantity": 2,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "UNKNOWN6",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.408692,
+          41.8349819
+        ]
+      },
+      "properties": {
+        "name": "Victoria Fox Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.971955,
+          42.5841788
+        ]
+      },
+      "properties": {
+        "name": "Beverly Medical Center",
+        "quantity": 10,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0129804,
+          41.9640376
+        ]
+      },
+      "properties": {
+        "name": "Good Samaritan Hospital",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7683029,
+          42.2079314
+        ]
+      },
+      "properties": {
+        "name": "Karen Conley Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1081799,
+          42.3358174
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital",
+        "quantity": 3,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0681779,
+          42.3625632
+        ]
+      },
+      "properties": {
+        "name": "Boston General Test",
+        "quantity": 400,
+        "entity_type": "demand",
+        "quantity_type": "FICTIV001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0622717,
+          42.3500802
+        ]
+      },
+      "properties": {
+        "name": "Winchester Hospital",
+        "quantity": 11,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7048514,
+          37.2268149
+        ]
+      },
+      "properties": {
+        "name": "Eric year ",
+        "quantity": 200,
+        "entity_type": "demand",
+        "quantity_type": "FICTIV001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8758422,
+          42.1376426
+        ]
+      },
+      "properties": {
+        "name": "Shelley Lynch Home",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6971825,
+          40.7456287
+        ]
+      },
+      "properties": {
+        "name": "Sai-Kit Wong House",
+        "quantity": 25,
+        "entity_type": "demand",
+        "quantity_type": "iMakr001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Faulkner Hospital",
+        "quantity": 2,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Cambridge Health Alliance",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Cambridge Health Alliance",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6231114,
+          41.8670646
+        ]
+      },
+      "properties": {
+        "name": "University of Chicago",
+        "quantity": 3,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Brigham and Women's Hospital - 2",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8975171,
+          33.0358476
+        ]
+      },
+      "properties": {
+        "name": "Faulkner Hospital",
+        "quantity": 1,
+        "entity_type": "demand",
+        "quantity_type": "PPE L/XL v1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0622717,
+          42.3500802
+        ]
+      },
+      "properties": {
+        "name": "Winchester Hospital",
+        "quantity": 7,
+        "entity_type": "demand",
+        "quantity_type": "PPE S/M v2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2008481,
+          38.7234644
+        ]
+      },
+      "properties": {
+        "name": "St Joe's Clinician's home",
+        "quantity": 200,
+        "entity_type": "demand",
+        "quantity_type": "FICTIV001"
+      }
+    }
+  ]
+}
