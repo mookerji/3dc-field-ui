@@ -13,7 +13,7 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v11",
   center: [-98, 38.88],
   minZoom: 2,
-  zoom: 3
+  zoom: 3,
 });
 
 const filterGroup = document.getElementById("filter-group");
@@ -29,25 +29,23 @@ map.on("load", function () {
 
 let lastId;
 
-function recipientToHTML(properties) {
+function entityToHTML(properties) {
   const {
-    name,
-    vicinity,
-    contact_name = "n/a",
-    contact_email = "n/a",
+    county,
+    quantity = 0,
+    quantity_type = "n/a",
     created_at = "n/a",
-    status = "n/a",
   } = properties;
-  return `<p><b>Name</b>: ${name}<br><b/>Address</b>: ${vicinity}<br><b/>Contact</b>: ${contact_name}<br><b/>Email</b>: ${contact_email}<br><b/>Created At</b>: ${created_at}<br><b/>Status</b>: ${status}</p>`;
+  return `<p><b>County</b>: ${county}<br><b/>Quantity Type</b>: ${quantity_type}<br><b/>Quantity</b>: ${quantity}<br><b/>Created At</b>: ${created_at}</p>`;
 }
 
 function handleMove(e) {
-  const id = e.features[0].properties.name;
+  const id = e.features[0].properties.county;
   if (id !== lastId) {
     lastId = id;
     map.getCanvas().style.cursor = "pointer";
     const coordinates = e.features[0].geometry.coordinates.slice();
-    const HTML = recipientToHTML(e.features[0].properties);
+    const HTML = entityToHTML(e.features[0].properties);
     popup.setLngLat(coordinates).setHTML(HTML).addTo(map);
   }
 }
@@ -76,11 +74,22 @@ map.on("mouseleave", "supply", function (e) {
   handleLeave(e);
 });
 
-function addLayerSelect(layer_id) {
+map.on("mousemove", "counties", function (e) {
+  map.getCanvas().style.cursor = "pointer";
+  var feature = e.features[0];
+  popup.setLngLat(e.lngLat).setText(feature.properties.COUNTY).addTo(map);
+});
+
+map.on("mouseleave", "counties", function () {
+  map.getCanvas().style.cursor = "";
+  popup.remove();
+});
+
+function addLayerSelect(layer_id, checked = true) {
   var input = document.createElement("input");
   input.type = "checkbox";
   input.id = layer_id;
-  input.checked = true;
+  input.checked = checked;
   filterGroup.appendChild(input);
 
   var label = document.createElement("label");
@@ -98,30 +107,31 @@ function addLayerSelect(layer_id) {
 }
 
 function init() {
-  map.addSource("data", {
+  map.addSource("aggregated", {
     type: "geojson",
     data:
-      "https://raw.githubusercontent.com/mookerji/3dc-field-ui/master/demand.json",
+      "https://raw.githubusercontent.com/mookerji/3dc-field-ui/master/aggregated.json",
   });
-  map.addSource('counties', {
-      'type': 'vector',
-      'url': 'mapbox://mapbox.82pkq93d'
+  map.addSource("counties", {
+    type: "vector",
+    url: "mapbox://mapbox.82pkq93d",
   });
   map.addLayer({
     id: "demand",
-    source: "data",
+    source: "aggregated",
     type: "circle",
     paint: {
       "circle-opacity": 0.85,
       "circle-stroke-width": 0.8,
-      "circle-radius": 6,
+      "circle-radius": 10,
       "circle-color": "#FFEB3B",
     },
-    filter: ["==", "entity_type", "recipient"],
+    filter: ["==", "entity_type", "demand"],
   });
+  addLayerSelect("demand");
   map.addLayer({
     id: "supply",
-    source: "data",
+    source: "aggregated",
     type: "circle",
     paint: {
       "circle-opacity": 0.85,
@@ -129,8 +139,25 @@ function init() {
       "circle-radius": 6,
       "circle-color": "#007cbf",
     },
-    filter: ["==", "entity_type", "warehouse"],
+    filter: ["==", "entity_type", "supply"],
   });
-  addLayerSelect("demand");
   addLayerSelect("supply");
+
+  map.addLayer(
+    {
+      id: "counties",
+      type: "fill",
+      source: "counties",
+      "source-layer": "original",
+      paint: {
+        "fill-outline-color": "rgba(0,0,0,0.2)",
+        "fill-color": "rgba(0,0,0,0.1)",
+      },
+      layout: {
+        visibility: "none",
+      },
+    },
+    "settlement-label"
+  );
+  addLayerSelect("counties", false);
 }
