@@ -106,11 +106,14 @@ function addLayerSelect(layer_id, checked = true) {
   });
 }
 
-function init() {
+async function init() {
+
+  const res = await fetch('https://4hmd1l6e32.execute-api.us-east-1.amazonaws.com/api');
+  const aggregated = await res.json();
+
   map.addSource("aggregated", {
     type: "geojson",
-    data:
-      "https://raw.githubusercontent.com/mookerji/3dc-field-ui/master/aggregated.json",
+    data: aggregated
   });
   map.addSource("counties", {
     type: "vector",
