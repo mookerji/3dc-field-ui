@@ -120,31 +120,75 @@ async function init() {
     url: "mapbox://mapbox.82pkq93d",
   });
   map.addLayer({
-    id: "demand",
-    source: "aggregated",
-    type: "circle",
-    paint: {
-      "circle-opacity": 0.85,
-      "circle-stroke-width": 0.8,
-      "circle-radius": 10,
-      "circle-color": "#FFEB3B",
-    },
-    filter: ["==", "entity_type", "demand"],
-  });
-  addLayerSelect("demand");
-  map.addLayer({
     id: "supply",
     source: "aggregated",
     type: "circle",
     paint: {
-      "circle-opacity": 0.85,
+      "circle-opacity": [
+        "interpolate",
+        ["linear"],
+        ["get", "quantity"],
+        25, 0.35,
+        50, 0.45,
+        100, 0.55,
+        200, 0.65,
+        300, 0.75
+      ],
       "circle-stroke-width": 0.8,
-      "circle-radius": 6,
+      "circle-radius": [
+        "interpolate",
+        ["linear"],
+        ["get", "quantity"],
+        10, 3,
+        50, 5,
+        100, 10,
+        300, 15,
+        500, 20,
+        1000, 25,
+        5000, 30,
+        10000, 35,
+        100000, 40
+      ],
       "circle-color": "#007cbf",
     },
     filter: ["==", "entity_type", "supply"],
   });
   addLayerSelect("supply");
+  map.addLayer({
+    id: "demand",
+    source: "aggregated",
+    type: "circle",
+    paint: {
+      "circle-opacity": [
+        "interpolate",
+        ["linear"],
+        ["get", "quantity"],
+        25, 0.35,
+        50, 0.45,
+        100, 0.55,
+        200, 0.65,
+        300, 0.75
+      ],
+      "circle-stroke-width": 0.8,
+      "circle-radius": [
+        "interpolate",
+        ["linear"],
+        ["get", "quantity"],
+        10, 3,
+        50, 5,
+        100, 10,
+        300, 15,
+        500, 20,
+        1000, 25,
+        5000, 30,
+        10000, 35,
+        100000, 40
+      ],
+      "circle-color": '#FFFFFF',
+    },
+    filter: ["==", "entity_type", "demand"],
+  });
+  addLayerSelect("demand");
 
   map.addLayer(
     {
