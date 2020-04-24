@@ -10,7 +10,7 @@ if (!mapboxgl.supported()) {
 const map = new mapboxgl.Map({
   container: "map",
   //  style: "mapbox://styles/maskson-internal/ck8qye4uf059t1ipsdcdtcy90",
-  style: "mapbox://styles/mapbox/streets-v11",
+  style: "mapbox://styles/mapbox/dark-v10",
   center: [-98, 38.88],
   minZoom: 2,
   zoom: 3,
@@ -119,28 +119,52 @@ async function init() {
     type: "vector",
     url: "mapbox://mapbox.82pkq93d",
   });
+
   map.addLayer({
     id: "demand",
     source: "aggregated",
     type: "circle",
     paint: {
-      "circle-opacity": 0.85,
+      "circle-opacity": [
+        "interpolate",
+        ["linear"],
+        ["get", "quantity"],
+        25, 0.35,
+        50, 0.45,
+        100, 0.55,
+        200, 0.65,
+        300, 0.75
+      ],
       "circle-stroke-width": 0.8,
-      "circle-radius": 10,
-      "circle-color": "#FFEB3B",
+      "circle-radius": [
+        "interpolate",
+        ["linear"],
+        ["get", "quantity"],
+        10, 3,
+        50, 5,
+        100, 10,
+        300, 15,
+        500, 20,
+        1000, 25,
+        5000, 30,
+        10000, 35,
+        100000, 40
+      ],
+      "circle-color": '#e02d19',
     },
     filter: ["==", "entity_type", "demand"],
   });
   addLayerSelect("demand");
+
   map.addLayer({
     id: "supply",
     source: "aggregated",
     type: "circle",
     paint: {
-      "circle-opacity": 0.85,
+      "circle-opacity": 1,
       "circle-stroke-width": 0.8,
       "circle-radius": 6,
-      "circle-color": "#007cbf",
+      "circle-color": "#1fb50e",
     },
     filter: ["==", "entity_type", "supply"],
   });
