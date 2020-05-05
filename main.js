@@ -13,8 +13,16 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/light-v10",
   center: [-98, 38.88],
   minZoom: 2,
-  zoom: 3,
+  attributionControl: false,
 });
+
+map.addControl(
+  new mapboxgl.AttributionControl({
+    compact: false,
+    customAttribution:
+      "Data courtesy <a href='https://tulip.co'> Tulip Co.</a>",
+  })
+);
 
 const filterGroup = document.getElementById("filter-group");
 
