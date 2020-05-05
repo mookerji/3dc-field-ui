@@ -20,7 +20,7 @@ map.addControl(
   new mapboxgl.AttributionControl({
     compact: false,
     customAttribution:
-      "Data courtesy <a href='https://tulip.co'> Tulip Co.</a>",
+      "Data courtesy <a href='https://tulip.co'> Tulip Interfaces</a>",
   })
 );
 
