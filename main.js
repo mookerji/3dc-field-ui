@@ -10,7 +10,7 @@ if (!mapboxgl.supported()) {
 const map = new mapboxgl.Map({
   container: "map",
   //  style: "mapbox://styles/maskson-internal/ck8qye4uf059t1ipsdcdtcy90",
-  style: "mapbox://styles/mapbox/dark-v10",
+  style: "mapbox://styles/mapbox/light-v10",
   center: [-98, 38.88],
   minZoom: 2,
   zoom: 3,
@@ -109,7 +109,7 @@ function addLayerSelect(layer_id, checked = true) {
 async function init() {
 
   const res = await fetch('https://4hmd1l6e32.execute-api.us-east-1.amazonaws.com/api');
-  const aggregated = await res.json();
+  let aggregated = await res.json();
 
   map.addSource("aggregated", {
     type: "geojson",
@@ -124,6 +124,7 @@ async function init() {
     id: "demand",
     source: "aggregated",
     type: "circle",
+    maxzoom: 10,
     paint: {
       "circle-opacity": [
         "interpolate",
@@ -158,6 +159,7 @@ async function init() {
 
   map.addLayer({
     id: "supply",
+    maxzoom: 10,
     source: "aggregated",
     type: "circle",
     paint: {
