@@ -12,7 +12,7 @@ const map = new mapboxgl.Map({
   //  style: "mapbox://styles/maskson-internal/ck8qye4uf059t1ipsdcdtcy90",
   style: "mapbox://styles/mapbox/light-v10",
   center: [-98, 38.88],
-  minZoom: 2,
+  minZoom: 4,
   attributionControl: false,
 });
 
@@ -35,52 +35,6 @@ map.on("load", function () {
   init();
 });
 
-let lastId;
-
-function entityToHTML(properties) {
-  const {
-    county,
-    quantity = 0,
-    quantity_type = "n/a",
-    created_at = "n/a",
-  } = properties;
-  return `<p><b>County</b>: ${county}<br><b/>Quantity Type</b>: ${quantity_type}<br><b/>Quantity</b>: ${quantity}<br><b/>Created At</b>: ${created_at}</p>`;
-}
-
-function handleMove(e) {
-  const id = e.features[0].properties.county;
-  if (id !== lastId) {
-    lastId = id;
-    map.getCanvas().style.cursor = "pointer";
-    const coordinates = e.features[0].geometry.coordinates.slice();
-    const HTML = entityToHTML(e.features[0].properties);
-    popup.setLngLat(coordinates).setHTML(HTML).addTo(map);
-  }
-}
-
-function handleLeave(e) {
-  lastId = undefined;
-  map.getCanvas().style.cursor = "";
-  popup.remove();
-}
-
-// TODO(mookerji): Refactor all this
-
-map.on("mousemove", "demand", (e) => {
-  handleMove(e);
-});
-
-map.on("mouseleave", "demand", function (e) {
-  handleLeave(e);
-});
-
-map.on("mousemove", "supply", (e) => {
-  handleMove(e);
-});
-
-map.on("mouseleave", "supply", function (e) {
-  handleLeave(e);
-});
 
 map.on("mousemove", "counties", function (e) {
   map.getCanvas().style.cursor = "pointer";
@@ -159,7 +113,7 @@ async function init() {
         10000, 35,
         100000, 40
       ],
-      "circle-color": '#e02d19',
+      "circle-color": '#ffc133',
     },
     filter: ["==", "entity_type", "demand"],
   });
